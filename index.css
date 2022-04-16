@@ -1,0 +1,24 @@
+.gmap_canvas{
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}  
+.mapouter{
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+    display: flex;
+}
+#box{
+    /* background-color: aquamarine; */
+    border: 1px solid rgb(155, 132, 132);
+  
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOfkxDntR3LRfi58zC-BNo8Ww3tCJ9BBZAuA&usqp=CAU);
+    background-size: cover;
+    justify-content: space-around;
+}
+
