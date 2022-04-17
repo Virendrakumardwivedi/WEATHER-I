@@ -20,7 +20,6 @@ function getData(){
     const url = 
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=aba0359b16180c5a0a561032fe8c3883`
 
-
     fetch(url)
     .then(function(res){
        return res.json();
@@ -61,7 +60,7 @@ function append (data){
     
     
     let sunset = document.createElement("p")
-    sunset.innerText = `Clound: ${data.sys.sunset}`;
+    sunset.innerText = `Sunset: ${data.sys.sunset}`;
 
     box.append(city, min, max, wind, clounds, sunrise, sunset)
     // map.src=`https://www.google.com/maps/embed/v1/place?key=${data.name}&q=Space+Needle,Seattle+WA`;
